@@ -23,7 +23,7 @@ dependencies {
     compile "org.slf4j:slf4j-simple:1.7.25"
     compile 'com.fasterxml.jackson.core:jackson-databind:2.9.8'
     runtime 'org.postgresql:postgresql:42.2.5'
-    implementation 'org.litote.kmongo:kmongo:3.9.2'
+    api 'org.litote.kmongo:kmongo:3.9.2'
 }
 
 compileKotlin {
